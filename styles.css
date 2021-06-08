@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/* CSS Check-Check */
+[data-key] {
+  outline: 2px groove black;
+}
+body {
+  background: lightgrey;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 70px;
+}
+
+kbd {
+  font-family: "Rubik", sans-serif;
+  display: block;
+  font-size: 4rem;
+}
+div {
+  height: 100px;
+  width: 100px;
+}

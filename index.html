@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Soundboard</title>
+  </head>
+
+  <body>
+    <!-- the UI -->
+    <div data-key="67" class="key">
+      <kbd>C</kbd>
+      <span class="sound">cow</span>
+    </div>
+
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">kitty</span>
+    </div>
+
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">dog</span>
+    </div>
+
+    <div data-key="69" class="key">
+      <kbd>E</kbd>
+      <span class="sound">elephant</span>
+    </div>
+
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">sheep</span>
+    </div>
+
+    <!-- the Sound -->
+    <audio data-key="67" src="./sounds/cow.wav"></audio>
+    <audio data-key="75" src="./sounds/cat-screaming.wav"></audio>
+    <audio data-key="68" src="./sounds/dog-bark.wav"></audio>
+    <audio data-key="69" src="./sounds/elephant.m4a"></audio>
+    <audio data-key="83" src="./sounds/sheep.wav"></audio>
+
+    <!-- javascript-->
+    <script src="./script.js"></script>
+  </body>
+</html>
